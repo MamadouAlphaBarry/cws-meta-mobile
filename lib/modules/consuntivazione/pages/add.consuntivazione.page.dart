@@ -172,7 +172,9 @@ class _AddConsuntivazioneState extends State<AddConsuntivazione> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        title: const Text("Add New Consuntivazione"),
+      ),
       body: Column(
         children: [
           Center(

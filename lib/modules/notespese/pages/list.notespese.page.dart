@@ -6,8 +6,10 @@ class ListeNoteSpese extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
-      body: Center(
+      appBar: AppBar(
+        title: const Text("List Note spese"),
+      ),
+      body: const Center(
         child: Card(
           child: Text("List NoteSpese"),
         ),

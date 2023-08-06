@@ -6,8 +6,10 @@ class AddNoteSpese extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
-      body: Center(
+      appBar: AppBar(
+        title: const Text("Add New Note Spese"),
+      ),
+      body: const Center(
         child: Card(
           child: Text("AddNoteSpese"),
         ),
@@ -17,7 +19,7 @@ class AddNoteSpese extends StatelessWidget {
         items: <BottomNavigationBarItem>[
           BottomNavigationBarItem(
               icon: IconButton(
-                icon: Icon(Icons.home),
+                icon: const Icon(Icons.home),
                 onPressed: () {
                   Navigator.pop(context);
                   Navigator.pushNamed(context, "/");

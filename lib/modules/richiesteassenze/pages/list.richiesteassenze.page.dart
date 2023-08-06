@@ -6,7 +6,9 @@ class ListRichiesteAssenze extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        title: const Text("List Richieste Assenze"),
+      ),
       body: Center(
         child: Card(
           child: Text("List Richieste"),

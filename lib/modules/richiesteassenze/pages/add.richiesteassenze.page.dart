@@ -6,7 +6,9 @@ class AddRichiesteAssenze extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        title: const Text("Add New Richieste di Assenze"),
+      ),
       body: Center(
         child: Card(
           child: Text("AddRichieste"),

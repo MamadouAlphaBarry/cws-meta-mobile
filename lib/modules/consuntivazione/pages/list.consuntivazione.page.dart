@@ -7,7 +7,9 @@ class ListConsuntivazione extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        title: const Text("List Consuntivazione"),
+      ),
       body: const Center(
         child: Card(
           child: CWSTable(),

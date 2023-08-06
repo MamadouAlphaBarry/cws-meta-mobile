@@ -6,10 +6,12 @@ class AddAcquisti extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        title: const Text("Add New Acquisti"),
+      ),
       body: const Center(
         child: Card(
-          child: Text("AddAcquisti"),
+          child: Text("Add Acquisti"),
         ),
       ),
       bottomNavigationBar: BottomNavigationBar(
@@ -17,7 +19,7 @@ class AddAcquisti extends StatelessWidget {
         items: <BottomNavigationBarItem>[
           BottomNavigationBarItem(
               icon: IconButton(
-                icon: Icon(Icons.home),
+                icon: const Icon(Icons.home),
                 onPressed: () {
                   Navigator.pop(context);
                   Navigator.pushNamed(context, "/");
